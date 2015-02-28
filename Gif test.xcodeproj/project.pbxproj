@@ -41,8 +41,8 @@
 		AAB359E01AA2087C0034F397 /* Gif testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gif testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB359E51AA2087C0034F397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB359E61AA2087C0034F397 /* Gif_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gif_testTests.m; sourceTree = "<group>"; };
-		AAD9C5651AA23574006FB6E3 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
-		AAD9C5661AA23574006FB6E3 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		AAD9C5651AA23574006FB6E3 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = test.h; path = ../test.h; sourceTree = "<group>"; };
+		AAD9C5661AA23574006FB6E3 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = test.m; path = ../test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +66,6 @@
 		AAB359BE1AA2087B0034F397 = {
 			isa = PBXGroup;
 			children = (
-				AAD9C5651AA23574006FB6E3 /* test.h */,
-				AAD9C5661AA23574006FB6E3 /* test.m */,
 				AAB359C91AA2087B0034F397 /* Gif test */,
 				AAB359E31AA2087C0034F397 /* Gif testTests */,
 				AAB359C81AA2087B0034F397 /* Products */,
@@ -88,6 +86,8 @@
 			children = (
 				AAB359CE1AA2087B0034F397 /* AppDelegate.h */,
 				AAB359CF1AA2087C0034F397 /* AppDelegate.m */,
+				AAD9C5651AA23574006FB6E3 /* test.h */,
+				AAD9C5661AA23574006FB6E3 /* test.m */,
 				AAB359D11AA2087C0034F397 /* ViewController.h */,
 				AAB359D21AA2087C0034F397 /* ViewController.m */,
 				AAB359D41AA2087C0034F397 /* Main.storyboard */,
