@@ -14,6 +14,7 @@
 		AAB359D81AA2087C0034F397 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB359D71AA2087C0034F397 /* Images.xcassets */; };
 		AAB359DB1AA2087C0034F397 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB359D91AA2087C0034F397 /* LaunchScreen.xib */; };
 		AAB359E71AA2087C0034F397 /* Gif_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB359E61AA2087C0034F397 /* Gif_testTests.m */; };
+		AAD9C5671AA23574006FB6E3 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD9C5661AA23574006FB6E3 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AAB359E01AA2087C0034F397 /* Gif testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gif testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB359E51AA2087C0034F397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB359E61AA2087C0034F397 /* Gif_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gif_testTests.m; sourceTree = "<group>"; };
+		AAD9C5651AA23574006FB6E3 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		AAD9C5661AA23574006FB6E3 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		AAB359BE1AA2087B0034F397 = {
 			isa = PBXGroup;
 			children = (
+				AAD9C5651AA23574006FB6E3 /* test.h */,
+				AAD9C5661AA23574006FB6E3 /* test.m */,
 				AAB359C91AA2087B0034F397 /* Gif test */,
 				AAB359E31AA2087C0034F397 /* Gif testTests */,
 				AAB359C81AA2087B0034F397 /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB359D31AA2087C0034F397 /* ViewController.m in Sources */,
+				AAD9C5671AA23574006FB6E3 /* test.m in Sources */,
 				AAB359D01AA2087C0034F397 /* AppDelegate.m in Sources */,
 				AAB359CD1AA2087B0034F397 /* main.m in Sources */,
 			);
@@ -414,6 +420,7 @@
 				AAB359EC1AA2087C0034F397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAB359ED1AA2087C0034F397 /* Build configuration list for PBXNativeTarget "Gif testTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				AAB359EF1AA2087C0034F397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
